@@ -1,0 +1,39 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero.hero1 {
+    background-color: $primary-color;
+    min-height: 450px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: $font-family;
+}
+
+.hero-principal {
+    padding: 3rem;
+    
+    h2 {
+        font-size: 1.5rem;
+        color: $font-color;
+    }
+}
+
+.hero-imagen-desarrollador {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 600px !Important;
+    }
+}

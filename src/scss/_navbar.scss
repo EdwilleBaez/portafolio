@@ -1,0 +1,17 @@
+.navbar.navbar1 {
+    padding: 2rem;
+    background-color: $primary-color;
+    font-size: 25px;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+    
+}

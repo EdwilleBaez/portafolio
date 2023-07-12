@@ -1,0 +1,20 @@
+.articulos {
+    min-height: 500px;
+    padding: 30px;
+
+    .card {
+        width: 80%;
+        max-width: 600px;
+        margin: 20px;
+    }
+
+    .card-header {
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: $bg-icono !important;
+        color: $font-clear !important;
+    }
+}
+

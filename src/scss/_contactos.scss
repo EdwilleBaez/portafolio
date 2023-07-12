@@ -1,0 +1,53 @@
+.contacto {
+
+    .container {
+        max-width: 1100px;
+        min-height: 200px;
+        padding: 20px;
+    }
+
+    .rectangulo {
+        margin-top: -5rem;
+        background-color: $contacto-rectangulo;
+        border-radius: 10px;
+        box-shadow: 0px 1px 4px 1px white;
+    }
+
+    .row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .descripcion {
+        color: $font-clear;
+        font-size: 1.2rem;
+    }
+
+    button {
+        color: $font-clear;
+        font-weight: bold;
+        background-color: transparent;
+        border: 2px solid white;
+        padding: 1.25em 2em;
+        margin: 10px;
+        border-radius: 100px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            background-color: $font-clear;
+            color: $font-dark
+        }
+
+        i {
+            color: $font-clear;
+            font-size: 1.3rem;
+            transition: all 0.2s ease-in-out;
+        }
+
+        &:hover i {
+            color: $font-dark;
+        }
+    }
+
+}

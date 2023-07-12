@@ -1,0 +1,271 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero.hero1 {
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+.hero-imagen-desarrollador {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px !important;
+  }
+}
+.navbar.navbar1 {
+  padding: 2rem;
+  background-color: #f5f6f7;
+  font-size: 25px;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+.experiencia .columna {
+  padding: 20px;
+  border: 2px solid rgba(128, 128, 128, 0.3019607843);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+.experiencia .columna:hover {
+  color: white;
+  background-color: #1b1b32;
+}
+.experiencia i {
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10 0;
+}
+
+.badge {
+  margin: 5px;
+}
+
+.proyectos-recientes {
+  padding: 40px;
+}
+.proyectos-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+.overlay i:hover {
+  color: rgb(163, 46, 46);
+}
+
+.proyecto {
+  position: relative;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.btn-info {
+  font-size: 1.1rem !important;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: #0a0a23 !important;
+  color: white !important;
+  padding: 15px importat !important;
+}
+
+@media screen and (max-width: 700px) {
+  .overlay p {
+    font-size: 18px;
+  }
+  .overlay i {
+    font-size: 40px;
+  }
+}
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+  padding: 0 15px;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #615151;
+}
+
+.articulos {
+  min-height: 500px;
+  padding: 30px;
+}
+.articulos .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+.articulos .card-header {
+  font-weight: bold;
+}
+
+.testimonios {
+  padding: 40px 40px 80px 40px;
+}
+.testimonios .carousel {
+  max-width: 800px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonio-imagen {
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.testimonio-info {
+  font-weight: bold;
+  text-align: center;
+}
+.testimonio-info p {
+  margin-bottom: 0;
+}
+.testimonio-info .cargo {
+  font-size: 0.9rem;
+  color: #656060;
+}
+
+.testimonio-footer .cliente {
+  font-size: 1.2rem;
+}

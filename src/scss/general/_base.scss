@@ -1,0 +1,33 @@
+.seccion-clara {
+    color: $font-dark;
+    background-color: $bg-clear;
+}
+
+.seccion-oscura {
+    color: $font-clear;
+    background-color: $bg-dark;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: $font-family;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+    padding: 0 15px;
+}
+
+.texto-negro {
+    color: $font-dark;
+}
+
+.texto-blanco {
+    color: $font-clear;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: $font-color;
+}
